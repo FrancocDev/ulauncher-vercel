@@ -1,0 +1,40 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Vercel",
+  "description": "Access your Vercel projects from Ulauncher",
+  "developer_name": "Franco Carrara",
+  "icon": "images/vercel.png",
+  "options": {
+    "query_debounce": 1
+  },
+  "preferences": [
+    {
+      "id": "kw",
+      "type": "keyword",
+      "name": "Vercel",
+      "description": "Vercel Projects",
+      "default_value": "vc"
+    },
+    {
+      "id": "access_token",
+      "type": "input",
+      "name": "Access Token",
+      "description": "The access token required to authenticate to Vercel API. Get one from <a href=\"https://vercel.com/account/tokens\">here</a>",
+      "default_value": ""
+    },
+    {
+      "id": "username",
+      "type": "input",
+      "name": "Username",
+      "description": "Your username is required to access to your project dashboard. You can find yours <a href=\"https://vercel.com/account\">here<a/>",
+      "default_value": ""
+    },
+    {
+      "id": "team_slug",
+      "type": "input",
+      "name": "Team Slug",
+      "description": "Your team slug is required to access to your team projects. If you didn't have a team, leave it empty.",
+      "default_value": ""
+    }
+  ]
+}
